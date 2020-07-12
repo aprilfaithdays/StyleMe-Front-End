@@ -1,0 +1,212 @@
+/* Entire App */
+body {
+    background-image: url("https://wallpapertag.com/wallpaper/full/2/6/0/283037-download-free-marble-background-2048x1347-xiaomi.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+code {
+    font-family: 'Catamaran', sans-serif;
+  }
+
+:any-link{
+    color: rgb(11, 119, 146);
+}
+
+:any-link:hover{
+    color: rgb(14, 186, 192)
+}
+
+.header{
+    background-color: rgb(255, 255, 255);
+    height: 5vh;
+    width: 100%;
+}
+
+.content{
+    min-height: 90vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: show;
+}
+
+.footer{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+}
+
+.style-me{
+    padding-top: 12px;
+}
+
+h3{
+    text-align: center;
+}
+
+.product-img{
+    height: 250px;
+    width: 180px;
+    cursor: pointer;
+}
+
+/* Navbar */
+
+.nav-style{
+    padding-top: 8px;
+    padding-bottom: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 50px;
+}
+
+.img-style{
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 40px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.nav-img{
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navbar-text{
+    margin-right: 25px;
+}
+
+.updateIcon-input{
+    width: 100%;
+    font-size: 16px;
+}
+
+.updateIcon-input[type=text] {
+    border: none;
+    border-bottom: 1px solid rgb(41, 42, 46);
+    background-color:white;
+}
+
+.updateIcon-input[type=text]:focus {
+    outline: none;
+}
+
+.logo{
+    height: 60px;
+}
+
+.welcome-logo{
+    margin-left: 73%;
+    height: 150px;
+}
+
+/* Create Outfit Page (Favorites List) , Product Index Pages */
+
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+.product-card{
+    height: 315px;
+    width: 230px;
+    display: block;
+    box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.product-card:hover{
+    background-color: rgba(255, 255, 255, 0.822);
+    transform:scale(1.025);
+    filter:blur(0px);
+    opacity:5;
+    box-shadow:0 8px 20px 0px rgba(0, 4, 11, 0.577);
+}
+
+.favorite-btn{
+    margin-top: 10px;
+}
+
+
+/* Browse Outfits, Home Page  */
+
+.outfit-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.outfit-card{
+    height: 828px;
+    width: 230px;
+    display: block;
+    box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 1%;
+}
+
+.outfit-card:hover{
+    background-color: rgba(255, 255, 255, 0.822);
+    transform:scale(1.025);
+    filter:blur(0px);
+    opacity:5;
+    box-shadow:0 8px 20px 0px rgba(0, 4, 11, 0.577);
+    cursor:pointer;
+}
+
+
+/* - - - - - - - - - - - - - - - - - -  */
+
+.submit-button{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.error{
+    color: rgb(228, 59, 59);
+}
+
+.faveGif{
+    width: 60%;
+}
+
+.faveList{
+    background-color: rgba(255, 255, 255, 0.747);
+}
+
+.faveList-text{
+    padding-left: 45px;
+    padding-top: 25px;
+    min-height: 77vh;
+}
+
+.banner{
+    width: 100%;
+}
+
+.emptyLiked{
+    text-align: center;
+}
+
+.likedGif{
+    margin-top: 15px;
+    width: 45%;
+
+}

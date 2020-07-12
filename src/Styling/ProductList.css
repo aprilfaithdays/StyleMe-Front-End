@@ -1,0 +1,23 @@
+.header-section{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title{
+  width: 35%;
+}
+
+.filter-products{
+  width: 65%;
+}
+
+.render-options{
+  height: 150px;
+  width: 200px;
+  overflow-y: auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  background-color: rgba(226, 226, 226, 0.466);
+  padding-left: 15px;
+  padding-top: 10px;
+}
