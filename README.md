@@ -28,13 +28,13 @@ Feel free to explore and experience StyleMe in the live demo link below!
   />
 </div>
 
-### Live Demo:
-<em>Coming soon!</em>
+## Live Demo: 
+[StyleMe](https://style-me.netlify.app/)
 
-### Video Demo:
+## Video Demo:
 <em>Coming soon!</em> 
 
-### Let's Connect!
+## Let's Connect!
 [LinkedIn](https://www.linkedin.com/in/april-escobar/)
 
 <div align="center">
