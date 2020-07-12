@@ -1,0 +1,59 @@
+#create-outfit-page{
+    padding-bottom: 30px;
+}
+
+.create-outfit{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#instructions{
+    margin-left: 10%;
+    background-color: rgba(255, 255, 255, 0.699);
+    padding: 10px;
+}
+
+.instructions{
+    font-weight: 650;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.input-name{
+    margin-bottom: 15px;
+}
+
+.outfit-name{
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.select-product{
+    height: 250px;
+    width: auto;
+    /* display: block; */
+    box-shadow: 6px 0 9px 0 rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.create-input{
+    width: 220px;
+}
+
+.create-input[type=text] {
+    border: none;
+    border-bottom: 1px solid rgb(41, 42, 46);
+    background-color: rgba(255, 255, 255, 0.692);
+}
+
+.create-input[type=text]:focus {
+    outline: none;
+}
+
+.createOutfitGif{
+    width: 100%;
+}

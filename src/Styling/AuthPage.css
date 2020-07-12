@@ -1,0 +1,57 @@
+#auth-page{
+    background-image: url('https://media.giphy.com/media/xT8qBe6CcgWfVfHQZO/source.gif');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+h5, .text{
+    text-align: center;
+}
+
+.auth-input{
+    width: 260px;
+}
+
+.auth-input[type=text] {
+    border: none;
+    border-bottom: 1px solid rgb(41, 42, 46);
+    /* background-color: rgba(245, 243, 243, 0.678); */
+}
+
+.auth-input[type=text]:focus {
+    outline: none;
+}
+
+.auth-input[type=password] {
+    border: none;
+    border-bottom: 1px solid rgb(41, 42, 46);
+    /* background-color: rgba(245, 243, 243, 0.678); */
+}
+
+.auth-input[type=password]:focus {
+    outline: none;
+}
+
+.header-text{
+    padding-top: 15px;
+    padding-left: 25px;
+    font-size: 28px;
+    font-weight: 650;
+}
+
+.content-text{
+    height: 80px;
+    width: 250px;
+    margin-left: 73%;
+    padding-top: 90px;
+    color: black;
+}
+
+.footer-text{
+    text-align: center;
+    color: black;
+}
+
