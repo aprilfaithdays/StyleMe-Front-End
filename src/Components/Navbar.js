@@ -13,7 +13,7 @@ const Navbar = props => {
 
     const logOut = () => {
         localStorage.removeItem('id');
-        props.history.push('/login');
+        props.history.push('/');
     }
 
     const cleanUp = () => abortController.abort();
