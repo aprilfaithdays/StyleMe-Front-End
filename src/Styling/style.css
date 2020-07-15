@@ -98,11 +98,14 @@ h3{
 
 .logo{
     height: 60px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .welcome-logo{
-    margin-left: 73%;
-    height: 150px;
+    margin-top: 1.5% ;
+    margin-left: 72.1%;
+    height: 115px;
 }
 
 /* Create Outfit Page (Favorites List) , Product Index Pages */
