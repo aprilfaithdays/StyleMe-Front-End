@@ -15,7 +15,7 @@ const Shoes = ({children}) => {
     },[]);
 
     const getShoes = () => {
-        fetch('https://obscure-wave-67967.herokuapp.com/shoes')
+        fetch('https://damp-shelf-95653.herokuapp.com/shoes')
         .then(res => res.json())
         .then(res => setShoes(res));
         return cleanUp();

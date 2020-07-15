@@ -15,7 +15,7 @@ const Tops = ({children}) => {
     },[]);
 
     const getTops = () => {
-        fetch('https://obscure-wave-67967.herokuapp.com/tops')
+        fetch('https://damp-shelf-95653.herokuapp.com/tops')
         .then(res => res.json())
         .then(res => setTops(res));
         return cleanUp();

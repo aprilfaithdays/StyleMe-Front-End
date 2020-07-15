@@ -8,7 +8,7 @@ const TopContainer = props => {
     const abortController = new AbortController();
 
     const id = parseInt(props.match.params.id, 0);
-    const faveTospUrl = 'https://obscure-wave-67967.herokuapp.com/favorite_tops';
+    const faveTospUrl = 'https://damp-shelf-95653.herokuapp.com/favorite_tops';
     const [currentUser] = useContext(CurrentUserContext);
     const [faveTops, setFaveTops] = useContext(FaveTopsContext);
 

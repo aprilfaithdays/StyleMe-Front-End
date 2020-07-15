@@ -6,7 +6,7 @@ const UpdateOutfit = props => {
     const abortController = new AbortController();
 
     const id = props.id;
-    const url = `https://obscure-wave-67967.herokuapp.com/outfits/${id}`;
+    const url = `https://damp-shelf-95653.herokuapp.com/outfits/${id}`;
     const [outfits, setOutfits] = useContext(OutfitsContext);
     const [name, setName] = useState(props.name);
 

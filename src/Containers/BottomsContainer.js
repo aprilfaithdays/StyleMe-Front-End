@@ -10,7 +10,7 @@ import { CurrentUserContext } from '../Context/CurrentUser';
 const BottomsContainer = () => {
     const abortController = new AbortController();
 
-    const faveBottomsUrl = 'https://obscure-wave-67967.herokuapp.com/favorite_bottoms';
+    const faveBottomsUrl = 'https://damp-shelf-95653.herokuapp.com/favorite_bottoms';
     const [currentUser] = useContext(CurrentUserContext);
     const [faveBottoms, setFaveBottoms] = useContext(FaveBottomsContext);
     const [bottoms] = useContext(BottomsContext);

@@ -27,7 +27,7 @@ const CreateOutfitForm = props => {
 
     const handleCreateOutfit = e => {
         e.preventDefault()
-        fetch('https://obscure-wave-67967.herokuapp.com/outfits', {
+        fetch('https://damp-shelf-95653.herokuapp.com/outfits', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
