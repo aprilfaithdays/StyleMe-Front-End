@@ -9,6 +9,8 @@ const Navbar = props => {
     const [newIcon, setNewIcon] = useState('');
     const buttonStyle = "btn btn-outline-secondary btn-sm";
     const logo = require("../Visuals/StyleMe-Logo.png");
+    const heart = require("../Visuals/sm-logo.png");
+
 
     const logOut = () => {
         props.history.push('/');
@@ -63,7 +65,7 @@ const Navbar = props => {
                         <span data-toggle="modal" data-target="#updateProfilePhoto">
                             <img src={currentUser.img_url} width="30" height="30" className="d-inline-block align-top nav-img" alt={currentUser.name}/>
                         </span>
-                        <span className="navbar-text"> Hi {currentUser.name} <span role="img" aria-label="heart">♡</span> </span>
+                        <span className="navbar-text"> Hi {currentUser.name} <img src={heart} width="20" height="20" className="d-inline-block align-top nav-img" alt="♡"/> </span>
                         <div className="log-out-btn">
                             <button className="btn btn-outline-secondary btn-sm" onClick={logOut}>Log Out</button>
                         </div>
