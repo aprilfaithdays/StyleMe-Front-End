@@ -15,36 +15,39 @@ import FaveShoes from './Context/FaveShoes';
 import Favorites from './Context/Favorites';
 import Liked from './Context/Liked';
 import MyLikes from './Context/MyLikes';
+import LoadingPage from './Context/LoadingPage';
 
 const App = () => {
   return (
     <>
       <Router>
-        <CurrentUser>
-          <CreateOutfit>
-            <Outfits>
-              <Tops>
-                <Bottoms>
-                  <Shoes>
-                    <FaveTops>
-                      <FaveBottoms>
-                        <FaveShoes>
-                          <Favorites>
-                            <Liked>
-                              <MyLikes>
-                                <Route to='/' component={StyleMe} />
-                              </MyLikes>
-                            </Liked>
-                          </Favorites>
-                        </FaveShoes>
-                      </FaveBottoms>
-                    </FaveTops>
-                  </Shoes>
-                </Bottoms>
-              </Tops>
-            </Outfits>
-          </CreateOutfit>
-        </CurrentUser>
+        <LoadingPage>
+          <CurrentUser>
+            <CreateOutfit>
+              <Outfits>
+                <Tops>
+                  <Bottoms>
+                    <Shoes>
+                      <FaveTops>
+                        <FaveBottoms>
+                          <FaveShoes>
+                            <Favorites>
+                              <Liked>
+                                <MyLikes>
+                                  <Route to='/' component={StyleMe} />
+                                </MyLikes>
+                              </Liked>
+                            </Favorites>
+                          </FaveShoes>
+                        </FaveBottoms>
+                      </FaveTops>
+                    </Shoes>
+                  </Bottoms>
+                </Tops>
+              </Outfits>
+            </CreateOutfit>
+          </CurrentUser>
+        </LoadingPage>
       </Router>
     </>
   )
