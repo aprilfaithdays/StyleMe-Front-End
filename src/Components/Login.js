@@ -61,11 +61,7 @@ const Login = props => {
         )
     }
 
-    return(
-        <div>
-            <Welcome form={returningUser()} />
-        </div>
-    )
+    return <Welcome form={returningUser()} />
 }
 
 export default Login

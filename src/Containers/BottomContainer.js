@@ -70,11 +70,7 @@ const BottomContainer = props => {
         />;
     }
 
-    return (
-        <div>
-            {renderBottom()}
-        </div>
-    )
+    return renderBottom()
 }
 
 export default BottomContainer

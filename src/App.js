@@ -14,7 +14,6 @@ import FaveBottoms from './Context/FaveBottoms';
 import FaveShoes from './Context/FaveShoes';
 import Favorites from './Context/Favorites';
 import Liked from './Context/Liked';
-import MyLikes from './Context/MyLikes';
 import LoadingPage from './Context/LoadingPage';
 
 const App = () => {
@@ -33,9 +32,7 @@ const App = () => {
                           <FaveShoes>
                             <Favorites>
                               <Liked>
-                                <MyLikes>
-                                  <Route to='/' component={StyleMe} />
-                                </MyLikes>
+                                <Route to='/' component={StyleMe} />
                               </Liked>
                             </Favorites>
                           </FaveShoes>

@@ -72,12 +72,8 @@ const SignUp = props => {
             </div>
         </div>
     )
-
-    return(
-        <div>
-            <Welcome form={newUser()} />
-        </div>
-    )
+    
+    return <Welcome form={newUser()} />
 }
 
 export default SignUp

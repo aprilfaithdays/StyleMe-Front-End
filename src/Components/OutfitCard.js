@@ -7,6 +7,7 @@ const OutfitCard = props => {
     const bottom = outfit.bottom;
     const shoe = outfit.shoe;
     const user = outfit.user;
+
     return(
         <div className="outfit-card">
             <strong> {outfit.name} <br/></strong>

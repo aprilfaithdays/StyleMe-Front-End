@@ -28,11 +28,7 @@ const HomePage = () => {
         </div>
     )
 
-    return(
-        <div>
-            {filterMyOutfits().length > 0 ? renderMyOutfits() : <NewHomePage/>} 
-        </div>
-    )
+    return filterMyOutfits().length > 0 ? renderMyOutfits() : <NewHomePage/>
 }
 
 export default HomePage

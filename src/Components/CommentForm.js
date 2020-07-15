@@ -126,11 +126,7 @@ const CommentForm = props => {
         </div>
     )
 
-    return(
-        <div >
-            {addCmt ? comment() : cmtBtn()}
-        </div>
-    )
+    return addCmt ? comment() : cmtBtn()
 }
 
 export default CommentForm
