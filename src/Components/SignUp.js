@@ -43,7 +43,7 @@ const SignUp = props => {
                 setUsernameError(true);
                 setShowError(false) 
             }
-            else { props.history.push('/login') }
+            else { props.history.push('/') }
         });
         return cleanUp();
     }
@@ -68,7 +68,7 @@ const SignUp = props => {
                 </div>
             </form>
             <div className="text">
-                Been here before? <span>➤ </span> <Link to='/login'>Login</Link>
+                Been here before? <span>➤ </span> <Link to='/'>Login</Link>
             </div>
         </div>
     )
