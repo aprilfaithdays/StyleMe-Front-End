@@ -15,7 +15,7 @@ const Liked = ({children}) => {
     },[])
 
     const getLiked = () => {
-        fetch('https://boiling-reaches-37131.herokuapp.com/likes')
+        fetch('https://obscure-wave-67967.herokuapp.com/likes')
         .then(res => res.json())
         .then(res => setLiked(res));
         return cleanUp();

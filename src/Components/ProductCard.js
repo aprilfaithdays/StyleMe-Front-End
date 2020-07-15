@@ -24,7 +24,7 @@ const ProductCard = props => {
     }, []);
 
     const getProduct = () => {
-        fetch(`https://boiling-reaches-37131.herokuapp.com/${category}/${id}`)
+        fetch(`https://obscure-wave-67967.herokuapp.com/${category}/${id}`)
         .then(res => res.json())
         .then(res => setProduct(res));
         return cleanUp();

@@ -13,7 +13,7 @@ const OutfitPage = props => {
     const abortController = new AbortController();
     const [loading, setLoading] = useState(true)
     const id = parseInt(props.match.params.id,0);
-    const outfitUrl = `https://boiling-reaches-37131.herokuapp.com/outfits/${id}`;
+    const outfitUrl = `https://obscure-wave-67967.herokuapp.com/outfits/${id}`;
 
     const [currentUser] = useContext(CurrentUserContext);
     const [outfits, setOutfits] = useContext(OutfitsContext);
@@ -51,7 +51,7 @@ const OutfitPage = props => {
     }
 
     const getComments = () => {
-        fetch('https://boiling-reaches-37131.herokuapp.com/comments')
+        fetch('https://obscure-wave-67967.herokuapp.com/comments')
         .then(res => res.json())
         .then(res => {filterComments(res); setLoading(false)});
         return cleanUp();

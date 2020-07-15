@@ -19,7 +19,7 @@ const CommentForm = props => {
     const [num, setNum] = useState('');
     
     const buttonStyle = "btn btn-outline-secondary btn-sm";
-    const likeUrl = 'https://boiling-reaches-37131.herokuapp.com/likes';
+    const likeUrl = 'https://obscure-wave-67967.herokuapp.com/likes';
     const emptyHeart = require("../Visuals/empty-heart.png");
     const likedHeart = require("../Visuals/liked.png");
     const exit = require("../Visuals/x.png");
@@ -55,7 +55,7 @@ const CommentForm = props => {
 
     const postCmt = () => {
         const user_id = parseInt(currentUser.id, 0);
-        fetch('https://boiling-reaches-37131.herokuapp.com/comments', {
+        fetch('https://obscure-wave-67967.herokuapp.com/comments', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

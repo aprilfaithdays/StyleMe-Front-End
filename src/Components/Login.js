@@ -19,7 +19,7 @@ const Login = props => {
     },[])
 
     const getUsers = () => {
-        fetch('https://boiling-reaches-37131.herokuapp.com/users')
+        fetch('https://obscure-wave-67967.herokuapp.com/users')
         .then(res => res.json())
         .then(res => setUsers(res));
         return cleanUp();

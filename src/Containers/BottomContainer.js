@@ -7,7 +7,7 @@ import { FaveBottomsContext } from '../Context/FaveBottoms';
 const BottomContainer = props => {
     const abortController = new AbortController();
     const id = parseInt(props.match.params.id, 0);
-    const faveBottomsUrl = 'https://boiling-reaches-37131.herokuapp.com/favorite_bottoms';
+    const faveBottomsUrl = 'https://obscure-wave-67967.herokuapp.com/favorite_bottoms';
     const [currentUser] = useContext(CurrentUserContext);
     const [faveBottoms, setFaveBottoms] = useContext(FaveBottomsContext);
 
