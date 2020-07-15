@@ -77,7 +77,7 @@ const OutfitPage = props => {
             method: 'DELETE'
         })
         removeOutfit(id);
-        props.history.push('/');
+        props.history.push('/home');
         return cleanUp();
     }
 
