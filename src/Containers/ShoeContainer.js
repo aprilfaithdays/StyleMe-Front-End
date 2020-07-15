@@ -71,11 +71,7 @@ const ShoeContainer = props => {
         />;
     }
 
-    return (
-        <div>
-            {renderShoe()}
-        </div>
-    )
+    return renderShoe()
 }
 
 export default ShoeContainer

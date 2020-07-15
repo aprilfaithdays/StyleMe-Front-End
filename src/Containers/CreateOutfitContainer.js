@@ -78,11 +78,9 @@ const CreateOutfit = () => {
     }
 
     return(
-        <div>
-            <Switch>
-                <Route path="/outfits/new" component={createOutfitPage}/>
-            </Switch>
-        </div>
+        <Switch>
+            <Route path="/outfits/new" component={createOutfitPage}/>
+        </Switch>
     )
 }
 

@@ -71,11 +71,7 @@ const TopContainer = props => {
         />;
     }
 
-    return (
-        <div>
-            {renderTop()}
-        </div>
-    )
+    return renderTop()
 }
 
 export default TopContainer
