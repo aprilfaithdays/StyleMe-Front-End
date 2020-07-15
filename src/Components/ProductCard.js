@@ -79,7 +79,7 @@ const ProductCard = props => {
     return(
         <div>
             <div className="product-section">
-                <h2 className="title">{product.name}</h2>
+                <h2>{product.name}</h2>
                 <div className="center-imgs">
                     <img className="show-img" src={product.live_view} alt="product"/>
                     <img className="show-img" src={product.img_url} alt="product"/>
