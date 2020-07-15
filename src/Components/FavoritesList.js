@@ -34,7 +34,6 @@ const FavoritesList = () => {
     const faveTopGif = require("../Visuals/faveTop.gif");
     const faveBottomGif = require("../Visuals/faveBottom.gif");
     const faveShoeGif = require("../Visuals/faveShoe.gif");
-
     
     const removeFavorite = (category, id) => {
         if (category === 'tops'){

@@ -14,7 +14,6 @@ import CreateOutfitContainer from './CreateOutfitContainer';
 import Footer from '../Components/Footer';
 import LikesPage from './LikesPage';
 
-
 const AccessStyleMe = props => {
     return(
         <div>
