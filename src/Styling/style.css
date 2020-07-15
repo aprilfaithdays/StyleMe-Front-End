@@ -8,7 +8,11 @@ body {
 
 code {
     font-family: 'Catamaran', sans-serif;
-  }
+}
+
+.black{
+    color: black;
+}
 
 :any-link{
     color: rgb(11, 119, 146);
@@ -214,3 +218,4 @@ h3{
     margin-top: 33vh;
     margin-left: 49%;
 }
+
