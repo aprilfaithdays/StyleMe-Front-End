@@ -15,7 +15,7 @@ const FaveShoes = ({children}) => {
     },[])
 
     const getFaveShoes = () => {
-        fetch('https://boiling-reaches-37131.herokuapp.com/favorite_shoes')
+        fetch('https://obscure-wave-67967.herokuapp.com/favorite_shoes')
         .then(res => res.json())
         .then(res => setFaveShoes(res));
         return cleanUp();

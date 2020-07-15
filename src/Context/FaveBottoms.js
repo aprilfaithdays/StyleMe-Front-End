@@ -15,7 +15,7 @@ const FaveBottoms = ({children}) => {
     },[])
 
     const getFaveBottoms = () => {
-        fetch('https://boiling-reaches-37131.herokuapp.com/favorite_bottoms')
+        fetch('https://obscure-wave-67967.herokuapp.com/favorite_bottoms')
         .then(res => res.json())
         .then(res => setFaveBottoms(res));
         return cleanUp();

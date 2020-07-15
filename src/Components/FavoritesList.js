@@ -60,7 +60,7 @@ const FavoritesList = () => {
     const cleanUp = () => abortController.abort();
 
     const deleteFave = (category, id) => {
-        fetch(`https://boiling-reaches-37131.herokuapp.com/favorite_${category}/${id}`, {
+        fetch(`https://obscure-wave-67967.herokuapp.com/favorite_${category}/${id}`, {
             method: 'DELETE'
         });
         return cleanUp();
