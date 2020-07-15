@@ -13,6 +13,7 @@ const CommentForm = props => {
     const [liked, setLiked] = useContext(LikedContext);
 
     const [text, setText] = useState('');
+    const [showEmpty, setShowEmpty] = useState(false);
     const [addCmt, setAddCmt] = useState(false);
     const [thisLike, setThisLike] = useState('');
     const [num, setNum] = useState('');
@@ -49,6 +50,10 @@ const CommentForm = props => {
 
     const addComment = e => {
         e.preventDefault();
+        text === '' ? setShowEmpty(true) : postCmt()
+    }
+
+    const postCmt = () => {
         const user_id = parseInt(currentUser.id, 0);
         fetch('https://boiling-reaches-37131.herokuapp.com/comments', {
             method: 'POST',
@@ -62,7 +67,8 @@ const CommentForm = props => {
         .then(res => {
             props.postComment(res);
             setText('');
-            setAddCmt(false)
+            setAddCmt(false);
+            setShowEmpty(false);
         });
         return cleanUp();
     }
@@ -112,6 +118,7 @@ const CommentForm = props => {
             <img className="exit" src={exit} alt="x" onClick={() => setAddCmt(false)}/>
             <form onSubmit={e => addComment(e)}>
                 <textarea className="cmt-input" type="text" value={text} onChange={e => setText(e.target.value)}/>
+                {showEmpty && <small className="error">*Please add a comment.</small>}
                 <div className="post-btn">
                     <button className={buttonStyle} type="submit">Post</button>
                 </div>
