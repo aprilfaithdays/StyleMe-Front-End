@@ -7,7 +7,7 @@ import '../Styling/OutfitPage.css';
 import DeleteForm from '../Components/DeleteForm';
 import OutfitComments from '../Components/OutfitComments';
 import CommentForm from '../Components/CommentForm';
-import Spinner from 'react-bootstrap/Spinner'
+import LoadingSpinner from '../Components/LoadingSpinner';
 
 const OutfitPage = props => {
     const abortController = new AbortController();
@@ -162,7 +162,7 @@ const OutfitPage = props => {
         </div>
     )
 
-    return loading ? <Spinner className="spinner" animation="border" variant="secondary" /> : renderPage()
+    return loading ? <LoadingSpinner /> : renderPage()
 }
 
 export default OutfitPage
