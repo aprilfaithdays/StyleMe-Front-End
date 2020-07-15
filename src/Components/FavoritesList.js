@@ -14,6 +14,7 @@ import { MyTopsContext, MyBottomsContext, MyShoesContext } from '../Context/Favo
 
 const FavoritesList = () => {
     const abortController = new AbortController();
+    const myRef = React.createRef()
 
     const [currentUser] = useContext(CurrentUserContext);
 
@@ -109,7 +110,7 @@ const FavoritesList = () => {
     
     return(
         <Container fluid>
-            <Col className="options">
+            <Col className="options" ref={myRef}>
                 <Tabs activeKey={key} onSelect={(k) => setKey(k)}>
                 <Tab eventKey="tops" title="Tops">
                     {myTops.length !== 0 ? renderProducts(myTops) : emptyFaves('tops')}
