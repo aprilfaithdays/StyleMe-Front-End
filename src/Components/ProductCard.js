@@ -18,6 +18,7 @@ const ProductCard = props => {
 
     useEffect(() => {
         getProduct();
+        window.scrollTo(0,0);
         return cleanUp();
         // eslint-disable-next-line 
     }, []);
