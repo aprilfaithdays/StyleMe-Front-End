@@ -32,7 +32,7 @@ const Login = props => {
             if(user.password === password){
                 localStorage.id = user.id;
                 setCurrentUser(user)
-                props.history.push('/')
+                props.history.push('/home')
             } else {
                 alert("Can't find username/password combo");
             }

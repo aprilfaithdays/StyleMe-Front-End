@@ -11,7 +11,7 @@ const Navbar = props => {
     const logo = require("../Visuals/StyleMe-Logo.png");
 
     const logOut = () => {
-        props.history.push('/login');
+        props.history.push('/');
         localStorage.removeItem('id');
     }
 
@@ -36,7 +36,7 @@ const Navbar = props => {
     return(
         <div className="header">
             <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light nav-style">
-                <Link to ='/' className="navbar-brand"><img className="logo" src={logo} alt="StyleMe"/></Link>
+                <Link to ='/home' className="navbar-brand"><img className="logo" src={logo} alt="StyleMe"/></Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

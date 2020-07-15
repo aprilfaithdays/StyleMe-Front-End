@@ -23,7 +23,7 @@ const AccessStyleMe = props => {
             </div>
             <div className="content style-me">
                 <Switch>
-                    <Route exact path='/' component={HomePage} />
+                    <Route exact path='/home' component={HomePage} />
                     <Route exact path='/tops' component={TopsContainer} />
                     <Route exact path='/bottoms' component={BottomsContainer} />
                     <Route exact path='/shoes' component={ShoesContainer} />
