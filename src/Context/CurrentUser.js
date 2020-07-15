@@ -21,7 +21,7 @@ const CurrentUser = ({children}) => {
 
     const getUser = () => {
         const id = userId();
-        fetch(`https://obscure-wave-67967.herokuapp.com/users/${id}`)
+        fetch(`https://damp-shelf-95653.herokuapp.com/users/${id}`)
         .then(res => res.json())
         .then(res => setCurrentUser(res));
         return cleanUp();

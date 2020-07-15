@@ -22,7 +22,7 @@ const Navbar = props => {
     const handleUpdate = e => {
         e.preventDefault()
         const id = currentUser.id
-        fetch(`https://obscure-wave-67967.herokuapp.com/users/${id}`, {
+        fetch(`https://damp-shelf-95653.herokuapp.com/users/${id}`, {
             method: 'PATCH',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({ img_url: newIcon })

@@ -24,7 +24,7 @@ const ProductCard = props => {
     }, []);
 
     const getProduct = () => {
-        fetch(`https://obscure-wave-67967.herokuapp.com/${category}/${id}`)
+        fetch(`https://damp-shelf-95653.herokuapp.com/${category}/${id}`)
         .then(res => res.json())
         .then(res => setProduct(res));
         return cleanUp();

@@ -15,7 +15,7 @@ const FaveTops = ({children}) => {
     },[])
 
     const getFaveTops = () => {
-        fetch('https://obscure-wave-67967.herokuapp.com/favorite_tops')
+        fetch('https://damp-shelf-95653.herokuapp.com/favorite_tops')
         .then(res => res.json())
         .then(res => setFaveTops(res));
         return cleanUp();

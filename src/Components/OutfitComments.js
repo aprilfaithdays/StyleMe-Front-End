@@ -18,7 +18,7 @@ const OutfitComments = props => {
     const cleanUp = () => abortController.abort();
 
     const deleteComment = id => {
-        fetch(`https://obscure-wave-67967.herokuapp.com/comments/${id}`, {
+        fetch(`https://damp-shelf-95653.herokuapp.com/comments/${id}`, {
             method: 'DELETE'
         })
         props.removeComment(id);

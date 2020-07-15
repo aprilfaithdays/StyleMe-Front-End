@@ -29,7 +29,7 @@ Feel free to explore and experience StyleMe in the live demo link below!
 </div>
 
 ## Live Demo: 
-[StyleMe](https://style-me.netlify.app/)
+[StyleMe](https://style-me.netlify.app/)♡
 
 ## Video Demo:
 <em>Coming soon!</em> 

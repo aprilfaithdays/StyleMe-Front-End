@@ -15,7 +15,7 @@ const Bottoms = ({children}) => {
     },[])
 
     const getBottoms = () => {
-        fetch('https://obscure-wave-67967.herokuapp.com/bottoms')
+        fetch('https://damp-shelf-95653.herokuapp.com/bottoms')
         .then(res => res.json())
         .then(res => setBottoms(res))
         return cleanUp();
