@@ -208,5 +208,9 @@ h3{
 .likedGif{
     margin-top: 15px;
     width: 45%;
+}
 
+.spinner{
+    margin-top: 33vh;
+    margin-left: 49%;
 }

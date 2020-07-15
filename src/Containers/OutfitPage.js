@@ -7,10 +7,11 @@ import '../Styling/OutfitPage.css';
 import DeleteForm from '../Components/DeleteForm';
 import OutfitComments from '../Components/OutfitComments';
 import CommentForm from '../Components/CommentForm';
+import Spinner from 'react-bootstrap/Spinner'
 
 const OutfitPage = props => {
     const abortController = new AbortController();
-
+    const [loading, setLoading] = useState(true)
     const id = parseInt(props.match.params.id,0);
     const outfitUrl = `https://boiling-reaches-37131.herokuapp.com/outfits/${id}`;
 
@@ -52,7 +53,7 @@ const OutfitPage = props => {
     const getComments = () => {
         fetch('https://boiling-reaches-37131.herokuapp.com/comments')
         .then(res => res.json())
-        .then(res => filterComments(res));
+        .then(res => {filterComments(res); setLoading(false)});
         return cleanUp();
     }
 
@@ -124,7 +125,7 @@ const OutfitPage = props => {
         )
     }
 
-    return(
+    const renderPage = () => (
         <div className="outfit-page">
                 <div className='row'>
                     <div className='outfit-side'>
@@ -160,6 +161,8 @@ const OutfitPage = props => {
                 </div>
         </div>
     )
+
+    return loading ? <Spinner className="spinner" animation="border" variant="secondary" /> : renderPage()
 }
 
 export default OutfitPage
