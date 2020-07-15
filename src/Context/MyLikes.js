@@ -1,31 +1,32 @@
-import React, { useState, useContext, useEffect} from 'react';
-import { LikedContext } from './Liked';
+import React, { useState } from 'react';
+// import React, { useState, useContext, useEffect} from 'react';
+// import { LikedContext } from './Liked';
 
 export const MyLikesContext = React.createContext([]);
 
 const MyLikes = ({children}) => {
-    const abortController = new AbortController();
-    const [liked] = useContext(LikedContext);
+    // const abortController = new AbortController();
+    // const [liked] = useContext(LikedContext);
     const [myLikes, setMyLikes] = useState([]);
 
-    const cleanUp = () => abortController.abort();
+    // const cleanUp = () => abortController.abort();
 
-    useEffect(() => {
-        myLiked();
-        // eslint-disable-next-line 
-    }, [liked]);
+    // useEffect(() => {
+    //     myLiked();
+    //     // eslint-disable-next-line 
+    // }, [liked]);
 
-    useEffect(() => {
-        return cleanUp();
-        // eslint-disable-next-line 
-    },[])
+    // useEffect(() => {
+    //     return cleanUp();
+    //     // eslint-disable-next-line 
+    // },[])
     
-    const myLiked = () => {
-        const userId = parseInt(localStorage.id, 0);
-        const list = [...liked];
-        const myList = list.filter(like => like.user_id === userId);
-        setMyLikes(myList);
-    }
+    // const myLiked = () => {
+    //     const userId = parseInt(localStorage.id, 0);
+    //     const list = [...liked];
+    //     const myList = list.filter(like => like.user_id === userId);
+    //     setMyLikes(myList);
+    // }
 
     return (
         <div>
