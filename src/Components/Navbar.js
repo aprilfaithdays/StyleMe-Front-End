@@ -47,12 +47,12 @@ const Navbar = props => {
                         Browse
                         </a>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <Link to='/tops' className="dropdown-item black">Tops</Link> 
-                            <Link to='/bottoms' className="dropdown-item black">Bottoms</Link> 
-                            <Link to='/shoes' className="dropdown-item black">Shoes</Link> 
+                            <Link to='/tops' className="dropdown-item">Tops</Link> 
+                            <Link to='/bottoms' className="dropdown-item">Bottoms</Link> 
+                            <Link to='/shoes' className="dropdown-item">Shoes</Link> 
                             <div className="dropdown-divider"></div>
-                            <Link to='/outfits' className="dropdown-item black">Outfits</Link> 
-                            <Link to='/likes' className="dropdown-item black">Liked <span role="img" aria-label="heart">♥️</span></Link> 
+                            <Link to='/outfits' className="dropdown-item">Outfits</Link> 
+                            <Link to='/likes' className="dropdown-item">Liked <span role="img" aria-label="heart">♥️</span></Link> 
                         </div>
                     </li>
                     <li className="nav-item">
