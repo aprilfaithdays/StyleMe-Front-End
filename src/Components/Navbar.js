@@ -5,15 +5,14 @@ import { useState } from 'react';
 
 const Navbar = props => {
     const abortController = new AbortController();
-
     const [currentUser, setCurrentUser] = useContext(CurrentUserContext);
     const [newIcon, setNewIcon] = useState('');
     const buttonStyle = "btn btn-outline-secondary btn-sm";
     const logo = require("../Visuals/StyleMe-Logo.png");
 
     const logOut = () => {
+        props.history.push('/login');
         localStorage.removeItem('id');
-        props.history.push('/');
     }
 
     const cleanUp = () => abortController.abort();

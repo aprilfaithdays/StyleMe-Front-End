@@ -1,9 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
+import { LoadingContext } from './LoadingPage';
 
 export const CurrentUserContext = React.createContext('');
 
 const CurrentUser = ({children}) => {
     const abortController = new AbortController();
+    const [, setLoading] = useContext(LoadingContext)
     const [currentUser, setCurrentUser] = useState({});
     
     const userId = () => localStorage.id ? parseInt(localStorage.id, 0) : '';
@@ -12,6 +14,7 @@ const CurrentUser = ({children}) => {
 
     useEffect(() => {
         localStorage.id && getUser();
+        setLoading(false)
         return cleanUp();
         // eslint-disable-next-line 
     },[])
