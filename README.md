@@ -18,6 +18,12 @@ user decided to delete that outfit... then it'll disappear from your liked libra
 
 <em><b>Please note:</b> The products are limited to women's wear.</em>
 
+<br/><br/>
+<div align="center">
+    <em><b>Disclaimer:</b> I do not own the rights to any of the images used for this project. All of the product images were pulled from H&M's website. </em>
+</div>
+<br/><br/>
+
 #### Quick Demo of Creating an Outfit:
 <div align="center">
 <img
@@ -35,6 +41,3 @@ Here's a quick walk through of what you can do with the StyleMe site: [StyleMeâ™
 ## Let's Connect!
 [LinkedIn](https://www.linkedin.com/in/april-escobar/)
 
-<div align="center">
-    <em><b>Disclaimer:</b> I do not own the rights to any of the images used for this project. All of the product images were pulled from H&M's website. </em>
-</div>
