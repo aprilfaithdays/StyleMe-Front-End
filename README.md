@@ -1,4 +1,4 @@
-# StyleMe (Front-End)
+# StyleMe (Back-End)
 
 <div align="center">
 <img
@@ -16,8 +16,6 @@ For added inspiration, you have the ability to browse other outfits created by o
 outfits you see! Once you like an outfit, it's saved in your liked library for you to reference later on! Or you know... unless the 
 user decided to delete that outfit... then it'll disappear from your liked library too.
 
-Feel free to explore and experience StyleMe in the live demo link below!
-
 <em><b>Please note:</b> The products are limited to women's wear.</em>
 
 #### Quick Demo of Creating an Outfit:
@@ -29,14 +27,14 @@ Feel free to explore and experience StyleMe in the live demo link below!
 </div>
 
 ## Live Demo: 
-[StyleMe](https://style-me.netlify.app/)♡
+Feel free to explore and experience StyleMe in the following link: [StyleMe♡](https://style-me.netlify.app/)
 
 ## Video Demo:
-[StyleMe♡ Project Demo](https://youtu.be/SUtbYjUhQDU)
+Here's a quick walk through of what you can do with the StyleMe site: [StyleMe♡](https://youtu.be/SUtbYjUhQDU)
 
 ## Let's Connect!
 [LinkedIn](https://www.linkedin.com/in/april-escobar/)
 
 <div align="center">
-    <em><b>Disclaimer:</b> We do not own the rights to any of the images used for this project.</em>
+    <em><b>Disclaimer:</b> I do not own the rights to any of the images used for this project. All of the product images were pulled from H&M's website. </em>
 </div>
