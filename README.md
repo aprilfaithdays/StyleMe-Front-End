@@ -25,7 +25,7 @@ user decided to delete that outfit... then it'll disappear from your liked libra
 </div>
 
 ## Live Demo: 
-[StyleMe♡ Live](https://style-me.netlify.app/) - Feel free to explore and experience StyleMe♡ in the following link 
+[StyleMe♡ Live](https://style-me.netlify.app/) - Feel free to explore and experience StyleMe♡ with this link link 
 
 ## Video Demo:
 [StyleMe♡ Walkthrough](https://youtu.be/SUtbYjUhQDU) - Here's a quick walkthrough of what you can do with the StyleMe♡ site
