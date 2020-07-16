@@ -32,7 +32,7 @@ Feel free to explore and experience StyleMe in the live demo link below!
 [StyleMe](https://style-me.netlify.app/)♡
 
 ## Video Demo:
-<em>Coming soon!</em> 
+[StyleMe♡ Project Demo](https://youtu.be/SUtbYjUhQDU)
 
 ## Let's Connect!
 [LinkedIn](https://www.linkedin.com/in/april-escobar/)
