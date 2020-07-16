@@ -17,14 +17,11 @@ outfits you see! Once you like an outfit, it's saved in your liked library for y
 user decided to delete that outfit... then it'll disappear from your liked library too.
 
 <em><b>Please note:</b> The products are limited to women's wear.</em>
-
 <br/>
-<div align="center">
-    <em><b>Disclaimer:</b> I do not own the rights to any of the images used for this project. All of the product images were pulled from H&M's website. </em>
-</div>
+  <em><b>Disclaimer:</b> I do not own the rights to any of the images used for this project. All of the product images were pulled from H&M's website. </em>
 <br/><br/>
 
-#### Quick Demo of Creating an Outfit:
+### Quick Demo of Creating an Outfit:
 <div align="center">
 <img
     src="https://github.com/aprilfaithdays/StyleMe-Front-End/blob/master/src/Visuals/createOutfit.gif"
