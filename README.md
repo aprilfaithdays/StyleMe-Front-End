@@ -18,7 +18,7 @@ user decided to delete that outfit... then it'll disappear from your liked libra
 
 <em><b>Please note:</b> The products are limited to women's wear.</em>
 
-<br/><br/>
+<br/>
 <div align="center">
     <em><b>Disclaimer:</b> I do not own the rights to any of the images used for this project. All of the product images were pulled from H&M's website. </em>
 </div>
@@ -33,10 +33,10 @@ user decided to delete that outfit... then it'll disappear from your liked libra
 </div>
 
 ## Live Demo: 
-Feel free to explore and experience StyleMe in the following link: [StyleMe♡](https://style-me.netlify.app/)
+[StyleMe♡ Live](https://style-me.netlify.app/) - Feel free to explore and experience StyleMe in the following link 
 
 ## Video Demo:
-Here's a quick walk through of what you can do with the StyleMe site: [StyleMe♡](https://youtu.be/SUtbYjUhQDU)
+[StyleMe♡ Walkthrough](https://youtu.be/SUtbYjUhQDU) - Here's a quick walkthrough of what you can do with the StyleMe site
 
 ## Let's Connect!
 [LinkedIn](https://www.linkedin.com/in/april-escobar/)
