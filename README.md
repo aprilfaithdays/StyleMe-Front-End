@@ -1,4 +1,4 @@
-# StyleMe (Back-End)
+# StyleMe (Front-End)
 
 <div align="center">
 <img
