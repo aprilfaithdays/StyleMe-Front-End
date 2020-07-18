@@ -1,6 +1,6 @@
 .outfit-page{
-    margin-left: 35px;
-    margin-top: 10px;
+    margin-left: 2%;
+    margin-top: 1%;
 }
 
 .outfit-side{
@@ -30,7 +30,7 @@
 }
 
 .center-card{
-    height: 60%;
+    height: auto;
     width: 90%;
     display: flex;
     flex-wrap: wrap;
@@ -53,8 +53,10 @@
 }
 
 .outfit-index-img{
+    width: 90%;
     height: auto;
-    width: 250px;
+    /* Magic! */
+    max-width: 15vw;
 }
 
 .outfit-index-img:hover{

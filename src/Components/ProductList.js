@@ -5,7 +5,6 @@ const ProductList = props => {
     const product = props.product;
     const buttonStyle = "btn btn-outline-secondary btn-sm";
     const remButton = "btn btn-outline-danger btn-sm";
-z
 
     const removeFave = () => (
         <div className="favorite-btn">
