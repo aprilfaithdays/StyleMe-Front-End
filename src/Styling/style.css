@@ -1,9 +1,8 @@
 /* Entire App */
 body {
-    background-image: url("https://wallpapertag.com/wallpaper/full/2/6/0/283037-download-free-marble-background-2048x1347-xiaomi.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    background: url(https://wallpapertag.com/wallpaper/full/2/6/0/283037-download-free-marble-background-2048x1347-xiaomi.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
 }
 
 code {
@@ -49,9 +48,11 @@ h3{
 }
 
 .product-img{
-    height: 250px;
-    width: 180px;
-    cursor: pointer;
+    width: 95%;
+    height: auto;
+    /* Magic! */
+    max-width: 15vw;
+    max-height: 50vh;
 }
 
 /* Navbar */
@@ -114,19 +115,19 @@ h3{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding-bottom: 30px;
+    padding-bottom: 2%;
 }
 
 .product-card{
-    height: 315px;
-    width: 230px;
+    width: 95%;
+    height: auto;
+    /* Magic! */
+    max-width: 55vw;
     display: block;
     box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.2);
     text-align: center;
-    padding-top: 15px;
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-bottom: 10px;
+    padding: 8%;
+    margin-bottom: 12%;
 }
 
 .product-card:hover{
@@ -153,15 +154,20 @@ h3{
 }
 
 .outfit-card{
-    height: 828px;
-    width: 230px;
+    /* height: 828px;
+    width: 230px; */
+    width: 95%;
+    height: auto;
+    /* Magic! */
+    max-width: 11vw;
     display: block;
     box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.2);
     text-align: center;
-    padding-top: 15px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    margin-left: 1%;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1.25%;
+    margin-right: 1.25%;
 }
 
 .outfit-card:hover{
